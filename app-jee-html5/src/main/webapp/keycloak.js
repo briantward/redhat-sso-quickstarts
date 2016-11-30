@@ -4,12 +4,8 @@
  * contributors by the @authors tag. See the copyright.txt in the
  * distribution for a full listing of individual contributors.
  *
-<<<<<<< HEAD
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
-=======
- * Licensed under the Apache License,optionsn compliance with the License.
->>>>>>> b8b0a55b00c481d6124cb440b21e79987920c3c8
  * You may obtain a copy of the License at
  * http://www.apache.org/licenses/LICENSE-2.0
  * Unless required by applicable law or agreed to in writing, software
@@ -842,22 +838,14 @@
                         var error;
 
                         ref.addEventListener('loadstart', function(event) {
-<<<<<<< HEAD
-                            if (event.url.indexOf('http://localhost') == 0) {
-=======
                             if (event.url.indexOf('https://appserver') == 0) {
->>>>>>> b8b0a55b00c481d6124cb440b21e79987920c3c8
                                 callback = parseCallback(event.url);
                                 ref.close();
                             }
                         });
 
                         ref.addEventListener('loaderror', function(event) {
-<<<<<<< HEAD
-                            if (event.url.indexOf('http://localhost') != 0) {
-=======
                             if (event.url.indexOf('https://appserver') != 0) {
->>>>>>> b8b0a55b00c481d6124cb440b21e79987920c3c8
                                 error = true;
                                 ref.close();
                             }
@@ -883,21 +871,13 @@
                         var error;
 
                         ref.addEventListener('loadstart', function(event) {
-<<<<<<< HEAD
-                            if (event.url.indexOf('http://localhost') == 0) {
-=======
                             if (event.url.indexOf('https://appserver') == 0) {
->>>>>>> b8b0a55b00c481d6124cb440b21e79987920c3c8
                                 ref.close();
                             }
                         });
 
                         ref.addEventListener('loaderror', function(event) {
-<<<<<<< HEAD
-                            if (event.url.indexOf('http://localhost') != 0) {
-=======
                             if (event.url.indexOf('https://appserver') != 0) {
->>>>>>> b8b0a55b00c481d6124cb440b21e79987920c3c8
                                 error = true;
                                 ref.close();
                             }
@@ -919,11 +899,7 @@
                         var registerUrl = kc.createRegisterUrl();
                         var ref = window.open(registerUrl, '_blank', 'location=no');
                         ref.addEventListener('loadstart', function(event) {
-<<<<<<< HEAD
-                            if (event.url.indexOf('http://localhost') == 0) {
-=======
                             if (event.url.indexOf('https://appserver') == 0) {
->>>>>>> b8b0a55b00c481d6124cb440b21e79987920c3c8
                                 ref.close();
                             }
                         });
@@ -933,22 +909,14 @@
                         var accountUrl = kc.createAccountUrl();
                         var ref = window.open(accountUrl, '_blank', 'location=no');
                         ref.addEventListener('loadstart', function(event) {
-<<<<<<< HEAD
-                            if (event.url.indexOf('http://localhost') == 0) {
-=======
                             if (event.url.indexOf('https://appserver') == 0) {
->>>>>>> b8b0a55b00c481d6124cb440b21e79987920c3c8
                                 ref.close();
                             }
                         });
                     },
 
                     redirectUri: function(options) {
-<<<<<<< HEAD
-                        return 'http://localhost';
-=======
                         return 'https://appserver';
->>>>>>> b8b0a55b00c481d6124cb440b21e79987920c3c8
                     }
                 }
             }
