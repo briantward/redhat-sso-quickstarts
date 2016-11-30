@@ -63,8 +63,7 @@
                     <artifactId>wildfly-maven-plugin</artifactId>
                     <version>${version.wildfly.maven.plugin}</version>
                     <configuration>
-                        <protocol>https-remoting</protocol>
-                        <port>9993</port>
+                        <skip>true</skip>
                     </configuration>
                 </plugin>
                 <plugin>

@@ -62,7 +62,11 @@
                 <artifactId>wildfly-maven-plugin</artifactId>
                 <version>${version.wildfly.maven.plugin}</version>
                 <configuration>
-                    <skip>false</skip>
+                    <protocol>https-remoting</protocol>
+                    <hostname>localhost</hostname>
+                    <username>admin</username>
+                    <password>admin</password>
+                    <port>9993</port>
                 </configuration>
             </plugin>
 
