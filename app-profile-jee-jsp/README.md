@@ -1,5 +1,5 @@
 app-profile-jee-jsp: JSP Profile Application
-================================================
+
 
 Level: Beginner
 Technologies: JavaEE
@@ -69,9 +69,6 @@ Build and Deploy the Quickstart
 
 If you prefer to secure WARs via Keycloak subsystem:
 
-   ````
-   For JBoss EAP 7:   mvn install -Dsubsystem wildfly:deploy
-   For JBoss EAP 6.4: mvn install -Dsubsystem -Deap6 jboss-as:deploy
    ````
 
 Access the Quickstart

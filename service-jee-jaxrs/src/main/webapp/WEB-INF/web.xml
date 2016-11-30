@@ -24,6 +24,9 @@
             <web-resource-name>secured</web-resource-name>
             <url-pattern>/secured</url-pattern>
         </web-resource-collection>
+        <user-data-constraint>
+            <transport-guarantee>CONFIDENTIAL</transport-guarantee>
+        </user-data-constraint>
         <auth-constraint>
             <role-name>user</role-name>
         </auth-constraint>
@@ -34,6 +37,9 @@
             <web-resource-name>admin</web-resource-name>
             <url-pattern>/admin</url-pattern>
         </web-resource-collection>
+        <user-data-constraint>
+            <transport-guarantee>CONFIDENTIAL</transport-guarantee>
+        </user-data-constraint>
         <auth-constraint>
             <role-name>admin</role-name>
         </auth-constraint>

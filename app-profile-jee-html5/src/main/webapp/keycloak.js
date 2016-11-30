@@ -838,14 +838,14 @@
                         var error;
 
                         ref.addEventListener('loadstart', function(event) {
-                            if (event.url.indexOf('http://localhost') == 0) {
+                            if (event.url.indexOf('https://appserver') == 0) {
                                 callback = parseCallback(event.url);
                                 ref.close();
                             }
                         });
 
                         ref.addEventListener('loaderror', function(event) {
-                            if (event.url.indexOf('http://localhost') != 0) {
+                            if (event.url.indexOf('https://appserver') != 0) {
                                 error = true;
                                 ref.close();
                             }
@@ -871,13 +871,13 @@
                         var error;
 
                         ref.addEventListener('loadstart', function(event) {
-                            if (event.url.indexOf('http://localhost') == 0) {
+                            if (event.url.indexOf('https://appserver') == 0) {
                                 ref.close();
                             }
                         });
 
                         ref.addEventListener('loaderror', function(event) {
-                            if (event.url.indexOf('http://localhost') != 0) {
+                            if (event.url.indexOf('https://appserver') != 0) {
                                 error = true;
                                 ref.close();
                             }
@@ -899,7 +899,7 @@
                         var registerUrl = kc.createRegisterUrl();
                         var ref = window.open(registerUrl, '_blank', 'location=no');
                         ref.addEventListener('loadstart', function(event) {
-                            if (event.url.indexOf('http://localhost') == 0) {
+                            if (event.url.indexOf('https://appserver') == 0) {
                                 ref.close();
                             }
                         });
@@ -909,14 +909,14 @@
                         var accountUrl = kc.createAccountUrl();
                         var ref = window.open(accountUrl, '_blank', 'location=no');
                         ref.addEventListener('loadstart', function(event) {
-                            if (event.url.indexOf('http://localhost') == 0) {
+                            if (event.url.indexOf('https://appserver') == 0) {
                                 ref.close();
                             }
                         });
                     },
 
                     redirectUri: function(options) {
-                        return 'http://localhost';
+                        return 'https://appserver';
                     }
                 }
             }

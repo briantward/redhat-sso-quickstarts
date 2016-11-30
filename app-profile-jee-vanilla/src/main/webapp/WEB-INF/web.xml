@@ -27,6 +27,9 @@
             <web-resource-name>app-profile-jee</web-resource-name>
             <url-pattern>/profile.jsp</url-pattern>
         </web-resource-collection>
+        <user-data-constraint>
+            <transport-guarantee>CONFIDENTIAL</transport-guarantee>
+        </user-data-constraint>
         <auth-constraint>
             <role-name>*</role-name>
         </auth-constraint>

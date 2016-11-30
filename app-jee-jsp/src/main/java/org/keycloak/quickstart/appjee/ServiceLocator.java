@@ -28,7 +28,7 @@ public class ServiceLocator {
                 host = "localhost";
             }
 
-            uri = "http://" + host + ":8080/service";
+            uri = "https://" + host + ":8443/service";
             return new URL(uri);
 
         } catch (MalformedURLException e) {
