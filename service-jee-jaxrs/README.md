@@ -5,7 +5,7 @@ Level: Beginner
 Technologies: JavaEE
 Summary: JAX-RS Service
 Target Product: RH-SSO, JBoss EAP
-Source: <https://github.com/keycloak/rh-sso-quickstarts>
+Source: <https://github.com/redhat-developer/rh-sso-quickstarts>
 
 
 What is it?
