@@ -1,7 +1,8 @@
 {
   "realm": "master",
+  "realm-public-key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAy6Vr3RlkzZT0ztiHg5l6ZC5ZorVzFxfmreuqpYH6+jPa3Qza/kdIauXyEFukk655rIP3L10f4NFxxu481UfNMsXfwTSbX58Wt49N2jCL31z18EqhLRdXGn43pn+X8xyw+2FC30FVjSuCqR+dl637QMX9YD255AtMt5O4zZNh2MlCyA9+9HL8msF3ox/lObgjWnCGG9mo3tWejgCg0W2Tsk4GAF2bxqtjgcw7oWBTjplPFiLgBnRHNt+adoCFOs0pjOgo65Dm9mxpacduBJagETK7uUKAX4slGD9Yi9lOsRlTciUvceruV1u/cmwgb4hogUxUfm4ibWRfd3PaVGHL4wIDAQAB",
   "bearer-only": true,
-  "auth-server-url": "http://localhost:8180/auth",
-  "ssl-required": "external",
+  "auth-server-url": "https://localhost:8543/auth",
+  "ssl-required": "all",
   "resource": "service-jaxrs"
 }

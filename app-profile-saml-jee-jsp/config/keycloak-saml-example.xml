@@ -1,14 +1,14 @@
 <keycloak-saml-adapter>
     <SP entityID="app-profile-saml"
-        sslPolicy="EXTERNAL"
-        logoutPage="/index.jsp">
+        sslPolicy="ALL"
+        logoutPage="index.jsp">
         <Keys>
             <Key signing="true">
                 <PrivateKeyPem>
-                    MIIEogIBAAKCAQEAimkMCig7fJLPXuQs+hA81k4O5x6JWjvFbNn5D+K7mzte5dVyEqIW0bdoeVFJMo+7Rj/eUa7EPIT2+g+rqnpsp4yB0gN00+Jy+uZBfLipgcgWQCecUnuRB5pqwO9u5wK2cbKWPR1szhSyf/tE9rZnzl5ie32ggxryvY5SuXyVrTp2i8nCGfkiYXLb8DJhUufJhX4FiMVuf8tBfpLbidd4TNi0z9GdbdM9KBHURaLGKk2d6Y1ij1hpBFlYLfKl1IuVS2SIjm7qRH1I0El4gj7Qa7k0UnsM2Lf05HRo2PpWVrWSlaiHetWhsuGIoXNQhfdOWeMUEN60D+1/VDU2GGJkewIDAQABAoIBABtiKRWhXBOLYCef8R4QNFkZ3GzxZ69IgAjHHzV7YC6YEnBaSFVTaDxZkvvdjyPHt/9wB2YVs5FdpRdYHlh+HB0R+WU5ddWtyZ3GDFLGnhKlKXHL5GuVMt5UOKavODvQF5RrBrpUpgAnrCER71T4RZVYqxdPhYAqxrel/svf0CUTT3RhfrksPvNwAnJRuX5VaXx/XLlY1wtG5Z9SZBHgQx9iUlYJx+65h2d/ZEhb5E6K4rmI5NO3isj0V3V7iKNrBdOoO61WO2FCDXqNdwqKlZ1VKzZu4gCddk7h97SMGpK93FquNJPTZi5g1I5uIuacdRTHT3Nktq2FrWXuVaHzf3ECgYEAwztLvQjX0Ch6mLPt4uwWDBo4OXCpeY4SvabTyGp07Dz6BC5toi0gqbtFiYNi7lw6L7bBbrfco0lRgt/pZbTG5VpyX+oO67aFDikejAWZdJhhh3rYikgQ09TpTrxVb84IkIrQV/ZsRB1iRg80aH4JLUdejNxPSHJO1tQjbJvcDTcCgYEAtX4K5Aq2x8jEBb8MTmIaNCkxUYJ/iZ0jjIaZN8MYXn/8qrM8nNPC16PJ93G66eHBvpZkhs25AhkHbiBeWDFi+Drn03mmn8EUA5hNNRDFvFXp2TwM9fVlo9Z6WPdpLDachReMbEnZ/CHbSbGV3zXeBjI3/v9oApLA6l+x1xCK5N0CgYBEjfzRe1p1ENHD72K4TViMlWRq3yHTukzgZcV2WdOG5P6SG0+KJDiVAVqwp/9EXgRcntsbqtqCSAukXkYR3cH95Z3GCmWE5cmhKFU+q/Sv2ZZdwYhqPlYSXHA0orOJmBqvzt7MFI79+Cd7HHm1u5QzXx1Xb0Ez2lfO3h02VSCXTwKBgA7/o5bE6+YGyWxQJYw0v0WgQdsilbehrNZoKTFahiEJIrBYr6GmPmvjtUUluPSrG3/MnfIl/iwWNW78bc+MBUnOVGo9m2+IXUcOxxKjmDPARdsWA1wwM34es222xJJK0RSOpaQtVj5n7d9hNamEohyQ+d+w67+KsTatQd0sGM5hAoGACuQTDOgaNxTPc7nMR8XLWp6Qt5R701+O1BUh0O4FxhIb69MWTroavmDmIY9qz6jbhJOfhyNSu1urj0xE0KK8Ul2M//B7hqNJGWLsZ74HWR3avZZ7IrQCO/tWfqzjcgMdfjFUS8C689vEBCKDhG54EcjXQH3Eyd5yUrC8l9Br/3E=
+                    MIIEpAIBAAKCAQEAmrNuYvwsYfMl8JxHQrdHLBah9xQhBCNxjhrryHNOq9ZXSzopnuknYSCjnEG76NXLG1KrLbV2h541vehx+See+B3/axtraTDySbI8KDYTqISD0ESU3eZrGRjDyn4+a0OWN2GhVk5nVrHuKpAYkqm2wAA1VFzY3frs3yrwOcRAIN9j1E0AhS+T7mzR07H/wj9rBQT75b1jO0OoQFihuSmLId8UwjpHE9Yi4JVBiXUTNBClDO4V7BD1Tcv9gXkxjv1KuNB9MkefY+47ldyvSMkx7YxYfeG2EQtQk/r0KnDV4tCT/bnFYpUkTL/4Kth96L1+jfVRnZeXO50p1n4d7L+RzwIDAQABAoIBAQCIoZULA6HHWNLXcY9Wkzze6ZZe/H40g4FVet1oCr8e8Y3juRjtawsGs6cM6NmnyLs8BIV/N1faa5cXhWa0IZQ7m3LtDCiPnVVAVZTgBvLR0UgB97BrU4iff8nc3CcQ4X6YpzexXEnUvg2VtfKeBhqL9SMkwWQgme//IpNM0dG5tXC+eMgk8w8XQ7CbNPUZ7iErwUG+t1ItC8GTAlw0iP2hTiLklKmy9l3s8DuUSUlf17wom8q2/lj5DZUqrzJSrhT0sES8wQSFFf5v+dN6aNZlYo97fiGLyJTQyVdCfp9MWjPEaC1Bdin7KFvcIjp5To/nBePttTQvHw79GuwdnrgBAoGBAOHzOIAhTV3AVu1k5SLVf6keRZET30SSQ1+1kEudgq6UgU9ehTbT6J5hyYxdeZ6vLt6tODft40Hi6NsnMNUsADuG4D04Rw6IBFkZvg8j+thb6sbdNR8jaGHRhgNl8PjwtQ0wZqbyxCUsY7HeAo1GYyKcwldY0GDyfzxZT8zbHeoBAoGBAK9Gb1NC3dnASCdK6CQy1gRSxuTcx0SGxyEa6auEWgcvxbAl57iMJBvLD8fwmRgByRY9Nn5nb64hadMst6tTQBxIev7TB5ercAMrXf0nbooxKnNOA5BG2jlHD2tnSQV4zSm8J9kJM4w1JWRhvMfL00ghQhKj2HGYA5XGhSFzYVvPAoGALCI22ggnNXW5RPtdKlWrbtwj2HeaN6meEVbEjZCBkxocu+UJfjEcEbumA43KkK1FKWeKQJpttlPdCdl411qV3Qq2SB7y+iqlNsYpcomjmJkznY5druxamiiz1XwW+nkB1Eas9lUa7OvjuT1VIEUsXflimG8XnKghJCeJx8jQ6gECgYEAkkNDqQZWnVxQmcFvgK2PXKI66Ua3Xp7d0uljb0aN3gtme3zWJnGDvFGyhJVpG9h5ln5UWB022+d0KM3bIzPgfvmY8cbmQhHE8lAhKZzbKKSomPnUDXSirEN5QZY6ID/TbO1fj0SXaHv9DQxmfY/AayOdwHJLr1c8PqMf+28OIo8CgYAZ3qIoWqaqEhzQeug6g9UMFKWSoBDppjsPACwgFClvfca58xP7u9QASsoZogDiMqXhy4ZO3LQNmipytx/vOXw4U9SqwWTftSzwD4GajK+1SPzGJ0ybLIWl5YvpRN4bQgucBSu+1XLPNctgQjUnAiM96fl6DdYh7ULMnP2N4wg5Cg==
                 </PrivateKeyPem>
                 <CertificatePem>
-                    MIICrzCCAZcCBgFVFfSKAjANBgkqhkiG9w0BAQsFADAbMRkwFwYDVQQDDBBhcHAtcHJvZmlsZS1zYW1sMB4XDTE2MDYwMzExMDgxNVoXDTI2MDYwMzExMDk1NVowGzEZMBcGA1UEAwwQYXBwLXByb2ZpbGUtc2FtbDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAIppDAooO3ySz17kLPoQPNZODuceiVo7xWzZ+Q/iu5s7XuXVchKiFtG3aHlRSTKPu0Y/3lGuxDyE9voPq6p6bKeMgdIDdNPicvrmQXy4qYHIFkAnnFJ7kQeaasDvbucCtnGylj0dbM4Usn/7RPa2Z85eYnt9oIMa8r2OUrl8la06dovJwhn5ImFy2/AyYVLnyYV+BYjFbn/LQX6S24nXeEzYtM/RnW3TPSgR1EWixipNnemNYo9YaQRZWC3ypdSLlUtkiI5u6kR9SNBJeII+0Gu5NFJ7DNi39OR0aNj6Vla1kpWoh3rVobLhiKFzUIX3TlnjFBDetA/tf1Q1NhhiZHsCAwEAATANBgkqhkiG9w0BAQsFAAOCAQEANYGFp9V0iOZgqK6HDBeEuM2S92hPvWHHOaPiU1fFN8tZLEuOz9ejB8XxKOuOC1iAOYzDKr+e6TWaS0PJgcJqyh9DRs5zxdcT6mcrAso9XyL33jSY2vZHMos+0m4ciSwNR+P73azNcuu3qZZNlixn30pgiajnHp2/E3kAE+uT8sPw8OGThW1RYFi3hcwQK0G7U4r0GdpPzDUaWD/6J9AJZQ+kxyk79bcZRGftWsgd4A/3CVRUDutz6BNTJzGOEHWxNcbRWiqPqi5XyJd/jVRXPAAN+3CWICp/KDMsWQwG1OQbEhRRh0AscSMhrRpf3c8wY05giqliJbFZG14Af5lJpg==
+                    MIICrzCCAZcCBgFYrEEp2TANBgkqhkiG9w0BAQsFADAbMRkwFwYDVQQDDBBhcHAtcHJvZmlsZS1zYW1sMB4XDTE2MTEyODE4NDMyMVoXDTI2MTEyODE4NDUwMVowGzEZMBcGA1UEAwwQYXBwLXByb2ZpbGUtc2FtbDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJqzbmL8LGHzJfCcR0K3RywWofcUIQQjcY4a68hzTqvWV0s6KZ7pJ2Ego5xBu+jVyxtSqy21doeeNb3ocfknnvgd/2sba2kw8kmyPCg2E6iEg9BElN3maxkYw8p+PmtDljdhoVZOZ1ax7iqQGJKptsAANVRc2N367N8q8DnEQCDfY9RNAIUvk+5s0dOx/8I/awUE++W9YztDqEBYobkpiyHfFMI6RxPWIuCVQYl1EzQQpQzuFewQ9U3L/YF5MY79SrjQfTJHn2PuO5Xcr0jJMe2MWH3hthELUJP69Cpw1eLQk/25xWKVJEy/+CrYfei9fo31UZ2XlzudKdZ+Hey/kc8CAwEAATANBgkqhkiG9w0BAQsFAAOCAQEAJwtgqsCgE74CdPtxxFH2oMVc8+Z4wAYV55yM7QFQzNK0BjlPKlbM7dxipkGWQRf4c4bFsOatTnFn9IKeV53mr9l801iLODS85onqdFojtX1smpl7sSLpw4iYi8hlWDZpu4pyoedTbsMep/RLF3Hg+BEk9K6YShsDZtF9Tk6lhpLo9ndgJ2WTOi4e6BI37x5oNVII1xJ56aUhkaMUJgkvSupkoEap9Kof7B3Dhvs2F2e1s2luPukYnvt5RwFLEL16VKM7SZFgFxU3ZKIdNDq8X3VWGzmURnQsusavxk6uXkH2302w5fQCB+XqG59ywXg/JLYUGjU9RstG9hL4JWjAHQ==
                 </CertificatePem>
             </Key>
         </Keys>
@@ -19,19 +19,19 @@
                                  validateResponseSignature="true"
                                  validateAssertionSignature="false"
                                  requestBinding="POST"
-                                 bindingUrl="http://localhost:8180/auth/realms/master/protocol/saml"/>
+                                 bindingUrl="https://localhost:8543/auth/realms/master/protocol/saml"/>
             <SingleLogoutService signRequest="true"
                                  signResponse="true"
                                  validateRequestSignature="true"
                                  validateResponseSignature="true"
                                  requestBinding="POST"
                                  responseBinding="POST"
-                                 postBindingUrl="http://localhost:8180/auth/realms/master/protocol/saml"
-                                 redirectBindingUrl="http://localhost:8180/auth/realms/master/protocol/saml"/>
+                                 postBindingUrl="https://localhost:8543/auth/realms/master/protocol/saml"
+                                 redirectBindingUrl="https://localhost:8543/auth/realms/master/protocol/saml"/>
             <Keys>
                 <Key signing="true">
                     <CertificatePem>
-                        REPLACE WITH REALM CERTIFICATE
+                        MIICmzCCAYMCBgFYkrQDmTANBgkqhkiG9w0BAQsFADARMQ8wDQYDVQQDDAZtYXN0ZXIwHhcNMTYxMTIzMTkzODQwWhcNMjYxMTIzMTk0MDIwWjARMQ8wDQYDVQQDDAZtYXN0ZXIwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDLpWvdGWTNlPTO2IeDmXpkLlmitXMXF+at66qlgfr6M9rdDNr+R0hq5fIQW6STrnmsg/cvXR/g0XHG7jzVR80yxd/BNJtfnxa3j03aMIvfXPXwSqEtF1cafjemf5fzHLD7YULfQVWNK4KpH52XrftAxf1gPbnkC0y3k7jNk2HYyULID370cvyawXejH+U5uCNacIYb2aje1Z6OAKDRbZOyTgYAXZvGq2OBzDuhYFOOmU8WIuAGdEc235p2gIU6zSmM6CjrkOb2bGlpx24ElqARMru5QoBfiyUYP1iL2U6xGVNyJS9x6u5XW79ybCBviGiBTFR+biJtZF93c9pUYcvjAgMBAAEwDQYJKoZIhvcNAQELBQADggEBAKsVLp0yUOGjCQD6W0EnlMYcn9Dzr2SIKdCo9sEEYDsuVfMYURia8qRpLKpYMpqBlYb0tkksV5vplzUeajfXHvlK//+n+I4NjUhh8L4kxaIer+weE7m1tPk2YXzAhLLe+koQBXCS5WMpOxFKf/kpR7uVGU7HLzfK7dPJFTsPbuhFkAGAQ7+IftauK6gXz9MJWIyMy6ocPoetSEBLs/t1ih4PZanIOWEQG9Mbjqz/X1dY74eSssHEaU21N1vE8i7S6Ka6draCDcxkUPyTxTImCEnQZOpRCYFLHtl6TR2p3DwMXpW1tiUO6tsfe44/S/Aifmux+7B8P4udoOo6IPnso/k=
                     </CertificatePem>
                 </Key>
             </Keys>
