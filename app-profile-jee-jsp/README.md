@@ -37,7 +37,7 @@ The following steps shows how to create the client required for this quickstart:
 * Add the following values:
   * Client ID: You choose (for example `app-profile-jsp`)
   * Client Protocol: `openid-connect`
-  * Root URL: URL to the application (for example `http://localhost:8080/app-profile-jsp`)
+  * Root URL: URL to the application (for example `https://appserver:8443/app-profile-jsp`)
 * Click `Save`
 
 Once saved you need to change the Access Type to `confidential` and click `Save`.
@@ -77,7 +77,7 @@ If you prefer to secure WARs via Keycloak subsystem:
 Access the Quickstart
 ----------------------
 
-You can access the application with the following URL: <http://localhost:8080/app-profile-jsp>
+You can access the application with the following URL: <https://appserver:8443/app-profile-jsp>
 
 
 Undeploy the Quickstart

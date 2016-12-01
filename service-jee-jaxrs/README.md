@@ -89,9 +89,9 @@ Access the Quickstart
 
 The endpoints for the service are:
 
-* public - <http://localhost:8080/service/public>
-* secured - <http://localhost:8080/service/secured>
-* admin - <http://localhost:8080/service/admin>
+* public - <https://appserver:8443/service/public>
+* secured - <https://appserver:8443/service/secured>
+* admin - <https://appserver:8443/service/admin>
 
 You can open the public endpoint directly in the browser to test the service. The two other endpoints require
 invoking with a bearer token. To invoke these endpoints use one of the example quickstarts:

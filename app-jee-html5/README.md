@@ -21,7 +21,7 @@ System Requirements
 -------------------
 
 The quickstart requires that you have the [example services](../service-jee-jaxrs/README.md) running. It assumes the
-services are located at `http://localhost:8080/service`. If the services are running elsewhere you need to edit
+services are located at `https://appserver:8443/service`. If the services are running elsewhere you need to edit
 `app.js` and replace the value of `serviceUrl`.
 
 If you are deploying the application as a WAR you need to have JBoss EAP 6.4 or 7 running.
@@ -42,7 +42,7 @@ The following steps show how to create the client required for this quickstart:
 * Add the following values:
   * Client ID: You choose (for example `app-html5`)
   * Client Protocol: `openid-connect`
-  * Root URL: URL to the application (for example `http://localhost:8080/app-html5`).
+  * Root URL: URL to the application (for example `https://appserver:8443/app-html5`).
 * Click `Save`
 
 If you deploy the application somewhere else change the hostname and port of the URLs accordingly.
@@ -76,7 +76,7 @@ Build and Deploy the Quickstart
 Access the Quickstart
 ---------------------
 
-You can access the application with the following URL: <http://localhost:8080/app-html5>.
+You can access the application with the following URL: <https://appserver:8443/app-html5>.
 
 The application provides buttons that allows invoking the different endpoints on the service:
 

@@ -45,7 +45,7 @@ any changes to the application itself.
 Access the Quickstart
 ----------------------
 
-You can access the application with the following URL: <http://localhost:8080/vanilla>. If you click on the
+You can access the application with the following URL: <https://appserver:8443/vanilla>. If you click on the
 login button the browser will display a prompt for authentication required. This is used for basic authentication where
 a username and password is collected by the browser and sent to the web application with the authorization header.
 
@@ -69,7 +69,7 @@ The following steps show how to create the client required for this quickstart:
 * Add the following values:
   * Client ID: You choose (for example `app-profile-vanilla`)
   * Client Protocol: `openid-connect`
-  * Root URL: URL to the application (for example `http://localhost:8080/vanilla`)
+  * Root URL: URL to the application (for example `https://appserver:8443/vanilla`)
 * Click `Save`
 
 Once saved you need to change the Access Type to `confidential` and click `Save`.
@@ -102,7 +102,7 @@ Next, configure the OIDC adapter via the RH-SSO client adapter subsystem. To do 
   
 * Replace `WAR MODULE NAME.war` with `vanilla.war`
 
-Now restart the JBoss EAP server. After the server is restarted open <http://localhost:8080/vanilla> and try
+Now restart the JBoss EAP server. After the server is restarted open <https://appserver:8443/vanilla> and try
 to login again. This time you will be redirected to RH-SSO to authenticate.
 
 

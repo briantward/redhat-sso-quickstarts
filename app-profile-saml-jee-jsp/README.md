@@ -40,9 +40,9 @@ The following steps shows how to create the client required for this quickstart:
 
 Once saved you need to change the following values:
 
-* Valid Redirect URIs: `http://localhost:8080/app-profile-saml/*`
-* Base URL: `http://localhost:8080/app-profile-saml/`
-* Master SAML Processing URL: `http://localhost:8080/app-profile-saml/saml`
+* Valid Redirect URIs: `https://appserver:8443/app-profile-saml/*`
+* Base URL: `https://appserver:8443/app-profile-saml/`
+* Master SAML Processing URL: `https://appserver:8443/app-profile-saml/saml`
 * Force Name ID Format: `ON`
 
 If you deploy the application somewhere else change the hostname and port of the URLs accordingly.
@@ -86,7 +86,7 @@ If you prefer to secure WARs via Keycloak SAML subsystem:
 Access the Quickstart
 ----------------------
 
-You can access the application with the following URL: <http://localhost:8080/app-profile-saml>
+You can access the application with the following URL: <https://appserver:8443/app-profile-saml>
 
 
 Undeploy the Quickstart
